@@ -1,2 +1,3 @@
 # Sentiment_Analysis_POS_NER_NLTK_TextBlob
-Sentiment analysis using NLTK and TextBlob 
+
+In this project a sentiment analysis of the Game of Throne book is performed. Two libraries; text blob, and NLTK were used to produce sentiments. The histogram of the results show that the produced sentiments of both methods are similar. Before performing the analysis the data was prepared. The preprocessing included removal of stop words, punctution, and lemmitization. The text was tokenized using NLTK package. Different vectorization methods were used and compared for best results. Bag of words, and TF-IDF from sklearn library were use for vectorization. Furtheremore, part of speech tagging was performed using NLTK library. Named entitiy recognition was performed using SpaCy Library. Part of speech tagging was chuncked using NLTK. ultimately, NLTK sentiment analyzer and TextBlob sentiment analyzer were used for sentiment analysis and comparison. 
